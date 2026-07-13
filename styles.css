@@ -630,6 +630,11 @@ h6 {
     font-size: 1.1rem;
 }
 
+.instagram-follow a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .social-icons {
     display: flex;
     align-items: center;
