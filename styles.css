@@ -496,11 +496,9 @@ h6 {
 }
 
 /* Camera Rental Section */
-.camera-rental-section {
-    padding: 100px 0;
-    background-color: var(--bg-light);
+#camera-rental {
+    display: none;
 }
-
 .rental-box {
     background: #0a0a0a;
     border: 2px solid var(--gold-primary);

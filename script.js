@@ -45,14 +45,30 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
-                const headerOffset = 80;
-                const elementPosition = targetElement.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-  
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: "smooth"
-                });
+                // If it's the camera rental box, toggle visibility
+                if (targetId === '#camera-rental') {
+                    if (targetElement.style.display === 'block') {
+                        // Optional: hide it again if they click while it's open
+                        targetElement.style.display = 'none';
+                        return; // don't scroll
+                    } else {
+                        targetElement.style.display = 'block';
+                        // Add a small animation effect directly
+                        targetElement.style.animation = 'fadeInUp 0.5s ease-out';
+                    }
+                }
+
+                // Wait a tiny bit for display:block to render before calculating offset
+                setTimeout(() => {
+                    const headerOffset = 80;
+                    const elementPosition = targetElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: "smooth"
+                    });
+                }, 10);
             }
         });
     });
