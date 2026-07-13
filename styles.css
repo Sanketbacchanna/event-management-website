@@ -262,10 +262,12 @@ h6 {
     position: relative;
     display: flex;
     align-items: center;
-    background-image: url('images/event_wedding_1783930177875.png');
-    background-size: cover;
+    background-image: url('images/logo_background.png');
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #000;
 }
 
 .hero-overlay {
