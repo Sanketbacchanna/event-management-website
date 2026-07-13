@@ -59,7 +59,8 @@ h6 {
     font-size: 3rem;
     text-align: center;
     background: var(--gold-gradient);
-    clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
     letter-spacing: 2px;
@@ -188,7 +189,8 @@ h6 {
     font-size: 3rem;
     font-weight: 700;
     background: var(--gold-gradient);
-    clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 1;
 }
@@ -303,7 +305,8 @@ h6 {
     line-height: 1.1;
     margin-bottom: 20px;
     background: var(--gold-gradient);
-    clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -569,7 +572,8 @@ h6 {
     line-height: 1.4;
     margin-bottom: 15px;
     background: var(--gold-gradient);
-    clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
