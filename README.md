@@ -146,12 +146,7 @@ in your preferred browser.
 
 ## Deployment
 
-You can deploy this project using:
-
-- GitHub Pages
-- Netlify
-- Vercel
-- Render
+https://event-management-website-66pw.onrender.com/
 
 ## Author
 
