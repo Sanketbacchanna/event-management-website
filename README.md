@@ -1,21 +1,60 @@
-# Event Management Website
+# Guru Krupa Events - Event Management Website
 
-A modern and responsive Event Management Website built using HTML, CSS, and JavaScript. The website provides information about various events and services through an attractive and user-friendly interface.
+A modern, responsive, and elegant Event Management Website developed using HTML, CSS, and JavaScript. The website showcases Guru Krupa Events' professional event planning services, helping customers explore various event packages, services, and contact information through an interactive user interface.
+
+## Preview
+
+> "We Plan, You Celebrate"
+
+Guru Krupa Events specializes in creating memorable celebrations with personalized event planning services for every occasion.
 
 ## Features
 
 - Responsive and modern UI design
 - Multi-page website structure
-- Home page with event highlights
-- About Us section
-- Services and Extra Services pages
-- Why Choose Us section
-- Contact page for user inquiries
-- Interactive navigation menu
-- Smooth scrolling and animations
+- Beautiful black and gold themed interface
+- Event showcase section
+- Professional services section
+- Camera & Accessories Rental service
+- Contact information and social media integration
 - Mobile-friendly design
-- Organized image assets management
-- Fast and lightweight performance
+- Smooth navigation between pages
+- Lightweight and fast performance
+- Interactive buttons and hover effects
+
+## Events Covered
+
+- Wedding Planning
+- Engagement Ceremony
+- Birthday Parties
+- Baby Shower
+- Naming Ceremony
+- Housewarming Ceremony
+- Anniversary Celebrations
+- Corporate Events
+- Haldi Ceremony
+- Mehendi Ceremony
+- Dandiya Night Events
+- Reception Events
+
+## Services Offered
+
+- Photography & Videography
+- Cold Pyro Effects
+- Catering Services
+- Camera Rental Services
+- Event Decoration
+- Personalized Event Planning
+- Professional Event Management
+
+## Why Choose Us?
+
+- Creative & Personalized Concepts
+- Attention to Every Detail
+- Trusted Vendors & Best Quality
+- On-time Execution
+- Making Every Moment Special
+- Professional Event Planning Services
 
 ## Tech Stack
 
@@ -23,97 +62,91 @@ A modern and responsive Event Management Website built using HTML, CSS, and Java
 - CSS3
 - JavaScript
 - Responsive Web Design
+- Font Awesome Icons
+- Google Fonts
 
 ## Project Structure
 
 ```bash
 event-management-website/
 │
-├── images/                # Website images and assets
-├── index.html             # Home page
-├── about.html             # About page
-├── services.html          # Services offered
-├── extra-services.html    # Additional services
-├── why-us.html            # Why choose us page
-├── contact.html           # Contact page
-├── styles.css             # Styling file
-├── script.js              # JavaScript functionality
-└── README.md              # Project documentation
+├── images/                 # Images and website assets
+├── index.html              # Home Page
+├── about.html              # About Us Page
+├── services.html           # Services Page
+├── extra-services.html     # Additional Services
+├── why-us.html             # Why Choose Us Page
+├── contact.html            # Contact Information
+├── styles.css              # Styling File
+├── script.js               # JavaScript Functionality
+└── README.md               # Project Documentation
 ```
 
-## Website Pages
+## Website Sections
 
-| Page | Description |
-|------|------------|
-| Home | Displays the main event management interface |
-| About | Provides information about the organization |
-| Services | Lists event management services |
-| Extra Services | Displays additional event-related services |
-| Why Us | Highlights the advantages of choosing the platform |
-| Contact | Allows users to get in touch easily |
+| Section | Description |
+|--------|-------------|
+| Home | Introduction and Hero Section |
+| About | Professional Event Planning Information |
+| Events | Event Categories Offered |
+| Services | Photography, Catering & Rentals |
+| Why Us | Benefits of Choosing Guru Krupa Events |
+| Contact | Phone Number, Email and Location |
 
 ## Installation
 
-1. Clone the repository.
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Sanketbacchanna/event-management-website.git
 ```
 
-2. Move to the project directory.
+### Navigate to the Project
 
 ```bash
 cd event-management-website
 ```
 
-3. Open the project in Visual Studio Code.
+### Run the Project
 
-4. Run the website using:
+Open the project using:
 
+- Visual Studio Code
 - Live Server Extension (Recommended)
-- or simply open `index.html` in your browser.
 
-## Usage
+or simply open:
 
-- Navigate through different pages using the navigation menu.
-- Explore available services and event-related information.
-- Learn more about the organization from the About page.
-- Contact the team using the Contact page.
+```bash
+index.html
+```
+
+in your preferred browser.
+
+## Contact Information
+
+| Details | Information |
+|--------|------------|
+| Phone Number | +91 9740873788 |
+| Email | gurukrupa.events@gmail.com |
+| Location | Bidar, Karnataka |
+| Instagram | @GuruKrupa_Events_Bidar |
 
 ## Future Enhancements
 
-- Event Registration System
-- Online Ticket Booking
+- Online Event Booking System
+- Event Registration Forms
 - Payment Gateway Integration
-- Admin Dashboard
-- User Authentication
-- Database Connectivity
-- Email Notifications
-- Event Scheduling and Management System
-
-## Screenshots
-
-You can add screenshots of:
-
-- Home Page
-- Services Page
-- Contact Page
-- About Page
-
-Example:
-
-```bash
-screenshots/
-│
-├── home-page.png
-├── services-page.png
-├── contact-page.png
-└── about-page.png
-```
+- Customer Dashboard
+- Admin Panel
+- Database Integration
+- WhatsApp Booking Support
+- Live Chat Support
+- Event Gallery Section
+- Customer Reviews & Testimonials
 
 ## Deployment
 
-The project can be deployed using:
+You can deploy this project using:
 
 - GitHub Pages
 - Netlify
@@ -122,20 +155,21 @@ The project can be deployed using:
 
 ## Author
 
-**Sanket Bacchanna**
+### Sanket Bacchanna
 
 - MCA Student
 - Full Stack Developer
 - Cybersecurity Enthusiast
 
-GitHub: https://github.com/Sanketbacchanna
+GitHub:
+> https://github.com/Sanketbacchanna
 
 ## Contributing
 
 Contributions are welcome.
 
 1. Fork the repository.
-2. Create a new branch.
+2. Create a feature branch.
 
 ```bash
 git checkout -b feature-name
@@ -147,7 +181,7 @@ git checkout -b feature-name
 git commit -m "Added new feature"
 ```
 
-4. Push your changes.
+4. Push the branch.
 
 ```bash
 git push origin feature-name
@@ -161,4 +195,6 @@ This project is licensed under the MIT License.
 
 ---
 
-### Built with HTML, CSS, and JavaScript.
+### Developed with ❤️ by Sanket Bacchanna
+
+> **Guru Krupa Events – We Plan, You Celebrate.**
